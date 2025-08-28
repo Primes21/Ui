@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	padding: 0% 25%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.primary {
+	border: 1px solid black;
+	border-radius: 20px;
+	height: 600px;
+	width: 300px;
+}
+
+.second {
+	border: 1px solid black;
+	border-radius: 20px;
+	height: 290px;
+	width: 300px;
+}
+
+.accent {
+	border: 1px solid black;
+	border-radius: 20px;
+	height: 290px;
+	width: 300px;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+}
+
+.right {
+	display: flex;
+	align-items: center;
+}
